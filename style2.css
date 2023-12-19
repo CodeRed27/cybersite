@@ -1,0 +1,84 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+.Img1{
+    position: absolute;
+    z-index: -99;
+    width: 100vw;
+    height: 100vh;
+}
+.textblock{
+
+  font-family: 'Arial', sans-serif;
+  font-size: 30px;
+  border: 5px solid #3c229c;
+  color: #2f8038;
+  padding: 10px;
+}
+.container2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    background-color: rgba(174, 89, 89, 0.4);
+    border-radius: 10px;
+    padding: 30px;
+    font-size: large;
+    font-style:italic;
+    color: rgb(81, 13, 33);
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    font-size:larger;
+
+
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    font-size:20px;
+    font-weight: bold;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(88, 81, 81);
+    margin-top: 10px;
+    outline: none;
+}
+
+.Logout-btn{
+    
+    border: none;
+    background-color: rgb(128, 0, 4);
+    color:aliceblue;
+    font-size : 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius:5px ;
+    margin-top:30px;
+
+}
